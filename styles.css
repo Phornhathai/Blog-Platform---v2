@@ -1,49 +1,49 @@
 body {
     font-family: Arial, sans-serif;
-  }
-  
-  #blog-list {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  #blogs {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #blogs li {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-  }
-  
-  #blogs li:last-child {
-    border: none;
-  }
-  
-  #blogs li span {
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  #blogs li .title {
-    color: #333;
-  }
-  
-  #blogs li .category {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+a.btn,
+.form-floating,
+button.btn {
+    margin: 5px 5px;
+}
+
+a{
+    color: black;
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.card .card-category {
     color: #008000;
-  }
-  
-  #blogs li .content {
-    color: #008000;
-  }
-  
-  #blogs li .author {
-    color: #008000;
-  }
-  
-  #blogs li .views {
-    color: #008000;
-  }
-  
+}
+
+.card .continue-reading {
+    text-align: right;
+}
+
+.card .continue-reading a {
+    color: black;
+    text-decoration: none;
+}
+
+.card .continue-reading a:hover {
+    text-decoration: underline;
+}
