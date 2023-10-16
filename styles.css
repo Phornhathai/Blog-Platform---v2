@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #blog-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #blogs {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #blogs li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  #blogs li:last-child {
+    border: none;
+  }
+  
+  #blogs li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #blogs li .title {
+    color: #333;
+  }
+  
+  #blogs li .category {
+    color: #008000;
+  }
+  
+  #blogs li .content {
+    color: #008000;
+  }
+  
+  #blogs li .author {
+    color: #008000;
+  }
+  
+  #blogs li .views {
+    color: #008000;
+  }
+  
