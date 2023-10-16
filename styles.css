@@ -9,19 +9,31 @@ a.btn,
 button.btn {
     margin: 5px 5px;
 }
+.main-article{
+    background-image: url('https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: 10%;
+}
 
+.row{
+    display: flex;
+    justify-content: start;
+}
 a{
     color: black;
+}
+
+.ms-3{
+    margin: 10px;
 }
 
 .card {
     display: flex;
     border: 1px solid black;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    flex-wrap: wrap;
     margin: 10px;
 }
+
 
 .card .card-title {
     font-size: 1.25rem;
@@ -46,4 +58,13 @@ a{
 
 .card .continue-reading a:hover {
     text-decoration: underline;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+li{
+    margin-left: 10px;
+    padding-left: 5px;
 }

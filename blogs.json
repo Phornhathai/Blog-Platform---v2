@@ -2,18 +2,18 @@
     "blogs": [
         {
             "id": 1,
-            "title": "How to Learn JavaScript",
+            "title": "Tips for Healthy Living",
             "category": "Programming",
             "content": "Lorem ipsum...",
-            "author": "John Doe",
+            "author": "Aum Desu",
             "views": 1200
         },
         {
             "id": 2,
             "title": "Tips for Healthy Living",
-            "category": "Health",
+            "category": "Programming",
             "content": "Lorem ipsum...",
-            "author": "Jane Doe",
+            "author": "Plan Doe",
             "views": 1000
         },
         {
@@ -21,7 +21,7 @@
             "title": "Tips for Healthy Living",
             "category": "Programming",
             "content": "Lorem ipsum...",
-            "author": "Jane Doe",
+            "author": "Noi Doe",
             "views": 900
         },
         {
@@ -62,7 +62,47 @@
             "category": "Health",
             "content": "Lorem ipsum...",
             "author": "Jane Doe",
-            "views": 3000
+            "views": 3900
+        },
+        {
+            "id": 9,
+            "title": "Tips for Healthy Living",
+            "category": "Health",
+            "content": "Lorem ipsum...",
+            "author": "Jane Doe",
+            "views": 4800
+        },
+        {
+            "id": 10,
+            "title": "Tips for Healthy Living",
+            "category": "Health",
+            "content": "Lorem ipsum...",
+            "author": "Jane Doe",
+            "views": 1200
+        },
+        {
+            "id": 11,
+            "title": "Tips for Healthy Living",
+            "category": "Health",
+            "content": "Lorem ipsum...",
+            "author": "Jane Doe",
+            "views": 19900
+        },
+        {
+            "id": 12,
+            "title": "Tips for Healthy Living",
+            "category": "Health",
+            "content": "Lorem ipsum...",
+            "author": "Jane Doe",
+            "views": 5000
+        },
+        {
+            "id": 13,
+            "title": "5 CSS Tips and Tricks Web Developer Should Know",
+            "category": "Health",
+            "content": "Lorem ipsum...",
+            "author": "Aum Desu",
+            "views": 1000
         }
     ]
 }
